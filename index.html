@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ory's Barbershop – Premium barber services in Zürich. Expert haircuts, beard trims & grooming packages. Book your appointment today at Heinrichstrasse 83, Zürich 8005." />
+  <meta name="keywords" content="barber zürich, barbershop zürich, haircut zürich, beard trim zürich, ory barbershop, heinrichstrasse barbershop" />
+  <meta name="author" content="Ory's Barbershop" />
+  <meta property="og:title" content="Ory's Barbershop – Premium Grooming in Zürich" />
+  <meta property="og:description" content="Expert cuts, beard trims & grooming packages in the heart of Zürich." />
+  <meta property="og:type" content="website" />
+  <title>Ory's Barbershop – Premium Grooming in Zürich</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <img src="images/logo.jpg" alt="Ory's Barbershop Logo" class="nav__logo-img" />
+      </a>
+      <ul class="nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#booking" class="btn btn--gold nav__cta">Book Now</a>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li><a href="#booking" class="mobile-link btn btn--gold" style="display:inline-block;margin-top:1rem;">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Zürich's Premier Barbershop</p>
+      <h1 class="hero__headline reveal">
+        The Art of<br /><em>Sharp Living</em>
+      </h1>
+      <p class="hero__sub reveal">Precision cuts. Expert grooming. A craft passed through generations — refined for the modern gentleman in the heart of Zürich.</p>
+      <div class="hero__actions reveal">
+        <a href="#booking" class="btn btn--gold">Book an Appointment</a>
+        <a href="#services" class="btn btn--outline">Explore Services</a>
+      </div>
+      <div class="hero__badges reveal">
+        <div class="badge"><span class="badge__num">500+</span><span class="badge__label">Happy Clients</span></div>
+        <div class="badge__divider"></div>
+        <div class="badge"><span class="badge__num">5★</span><span class="badge__label">Google Rating</span></div>
+        <div class="badge__divider"></div>
+        <div class="badge"><span class="badge__num">10+</span><span class="badge__label">Years of Craft</span></div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== GOLD DIVIDER ===================== -->
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== INTRO ===================== -->
+  <section class="intro" id="about">
+    <div class="container intro__grid">
+      <div class="intro__visual reveal">
+        <div class="intro__logo-wrap">
+          <img src="images/logo.jpg" alt="Ory's Barbershop" class="intro__logo" />
+        </div>
+        <div class="intro__tag">Est. Zürich · Heinrichstrasse 83</div>
+      </div>
+      <div class="intro__text reveal">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Where Precision<br />Meets <em>Character</em></h2>
+        <p class="intro__body">At Ory's Barbershop, we believe a great cut is more than technique — it's a conversation, a ritual, a statement. Founded by Ory and rooted in the vibrant Kreis 5 neighbourhood of Zürich, we blend old-school craft with modern sensibility.</p>
+        <p class="intro__body">Every client who walks through our door receives the same thing: complete attention, expert hands, and a look tailored precisely to them.</p>
+        <a href="#booking" class="btn btn--gold" style="margin-top:2rem;">Reserve Your Seat</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What We Offer</p>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Every service is a carefully crafted experience — not a transaction.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__num">01</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 40 C8 40 14 28 24 28 C34 28 40 40 40 40" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="16" r="8" stroke="#C9A84C" stroke-width="2"/><path d="M16 28 L14 42" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/><path d="M32 28 L34 42" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Classic Haircut</h3>
+          <p class="service-card__desc">A precision cut tailored to your face shape and lifestyle. Includes consultation, shampoo, cut & finish.</p>
+          <div class="service-card__price">CHF 45</div>
+          <a href="#booking" class="service-card__link">Book This →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__num">02</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 20 C12 20 14 36 24 36 C34 36 36 20 36 20" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><path d="M16 14 C16 14 20 18 24 18 C28 18 32 14 32 14" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><path d="M10 24 L8 30" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><path d="M38 24 L40 30" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Beard Trim & Shape</h3>
+          <p class="service-card__desc">Expert beard sculpting, hot towel treatment, and precise line-up for a sharp, defined look.</p>
+          <div class="service-card__price">CHF 30</div>
+          <a href="#booking" class="service-card__link">Book This →</a>
+        </div>
+
+        <div class="service-card service-card--featured reveal">
+          <div class="service-card__badge">Most Popular</div>
+          <div class="service-card__num">03</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6 L28 16 L40 16 L30 23 L34 34 L24 27 L14 34 L18 23 L8 16 L20 16 Z" stroke="#C9A84C" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Full Grooming Package</h3>
+          <p class="service-card__desc">The complete experience: haircut, beard trim, hot towel shave, scalp massage & premium styling. The ultimate reset.</p>
+          <div class="service-card__price">CHF 85</div>
+          <a href="#booking" class="service-card__link">Book This →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__num">04</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10 L38 38 M38 10 L10 38" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="10" stroke="#C9A84C" stroke-width="2"/></svg>
+          </div>
+          <h3 class="service-card__title">Hot Towel Shave</h3>
+          <p class="service-card__desc">A traditional straight-razor shave with hot towel prep, pre-shave oil, and soothing aftercare balm.</p>
+          <div class="service-card__price">CHF 40</div>
+          <a href="#booking" class="service-card__link">Book This →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__num">05</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 8 L32 8 L36 20 L24 40 L12 20 Z" stroke="#C9A84C" stroke-width="2" stroke-linejoin="round"/><path d="M16 8 L24 40 M32 8 L24 40" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Kids Haircut</h3>
+          <p class="service-card__desc">Patient, friendly cuts for boys. We make sure the little ones feel comfortable from start to finish.</p>
+          <div class="service-card__price">CHF 28</div>
+          <a href="#booking" class="service-card__link">Book This →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__num">06</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 8 C24 8 12 16 12 28 C12 35.7 17.4 42 24 42 C30.6 42 36 35.7 36 28 C36 16 24 8 24 8Z" stroke="#C9A84C" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Hair & Beard Combo</h3>
+          <p class="service-card__desc">Haircut + beard sculpt in one seamless appointment. The go-to for the complete, put-together gentleman.</p>
+          <div class="service-card__price">CHF 65</div>
+          <a href="#booking" class="service-card__link">Book This →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== OPENING HOURS ===================== -->
+  <section class="hours">
+    <div class="container hours__grid">
+      <div class="hours__text reveal">
+        <p class="section-eyebrow">We're Open</p>
+        <h2 class="section-title">Opening Hours</h2>
+        <p class="hours__note">Walk-ins welcome — but we recommend booking to guarantee your spot.</p>
+        <a href="#booking" class="btn btn--gold" style="margin-top:1.5rem;">Book Online</a>
+      </div>
+      <div class="hours__table reveal">
+        <div class="hours__row">
+          <span class="hours__day">Monday</span>
+          <span class="hours__time hours__closed">Closed</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Tuesday – Friday</span>
+          <span class="hours__time">09:00 – 19:00</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Saturday</span>
+          <span class="hours__time">09:00 – 17:00</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Sunday</span>
+          <span class="hours__time hours__closed">Closed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">Fresh Out the Chair</h2>
+        <p class="section-subtitle">Every cut tells a story. Here are a few of ours.</p>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall reveal" style="background-image:url('images/logo.jpg')">
+        <div class="gallery__item-overlay"><span>Classic Fade</span></div>
+      </div>
+      <div class="gallery__item reveal" style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);">
+        <div class="gallery__placeholder">
+          <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="24" r="10" stroke="#C9A84C" stroke-width="1.5"/><path d="M12 52c0-11 9-20 20-20s20 9 20 20" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Coming Soon</span>
+        </div>
+      </div>
+      <div class="gallery__item reveal" style="background: linear-gradient(135deg, #111 0%, #222 100%);">
+        <div class="gallery__placeholder">
+          <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="24" r="10" stroke="#C9A84C" stroke-width="1.5"/><path d="M12 52c0-11 9-20 20-20s20 9 20 20" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Coming Soon</span>
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal" style="background: linear-gradient(135deg, #181818 0%, #282828 100%);">
+        <div class="gallery__placeholder">
+          <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="24" r="10" stroke="#C9A84C" stroke-width="1.5"/><path d="M12 52c0-11 9-20 20-20s20 9 20 20" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Coming Soon</span>
+        </div>
+      </div>
+      <div class="gallery__item reveal" style="background: linear-gradient(135deg, #151515 0%, #252525 100%);">
+        <div class="gallery__placeholder">
+          <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="24" r="10" stroke="#C9A84C" stroke-width="1.5"/><path d="M12 52c0-11 9-20 20-20s20 9 20 20" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Coming Soon</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery__cta reveal">
+      <p>See more on our Facebook</p>
+      <a href="https://www.facebook.com/orysbarbershop" target="_blank" rel="noopener" class="btn btn--outline">View Facebook Page</a>
+    </div>
+  </section>
+
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Client Reviews</p>
+        <h2 class="section-title">What They Say</h2>
+      </div>
+      <div class="testi__grid">
+
+        <div class="testi-card reveal">
+          <div class="testi-card__stars">★★★★★</div>
+          <p class="testi-card__text">"Best barbershop in Zürich, no question. Ory takes his time, listens carefully and delivers every single time. I won't go anywhere else."</p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">M</div>
+            <div>
+              <strong>Marco B.</strong>
+              <span>Zürich, CH</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-card__stars">★★★★★</div>
+          <p class="testi-card__text">"The full grooming package is incredible. Hot towel, beard sculpt, the works. I walked out feeling like a completely different person. Worth every franc."</p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">D</div>
+            <div>
+              <strong>David K.</strong>
+              <span>Zürich, CH</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-card__stars">★★★★★</div>
+          <p class="testi-card__text">"Friendly atmosphere, clean shop, and genuinely talented barber. My son and I both go here. Highly recommend for anyone in Kreis 5."</p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">F</div>
+            <div>
+              <strong>Florian S.</strong>
+              <span>Zürich, CH</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== BOOKING ===================== -->
+  <section class="booking" id="booking">
+    <div class="container booking__grid">
+      <div class="booking__left reveal">
+        <p class="section-eyebrow">Reserve Your Visit</p>
+        <h2 class="section-title">Book an<br /><em>Appointment</em></h2>
+        <p class="booking__note">Fill out the form and we'll confirm your booking via phone or email within 24 hours.</p>
+        <div class="booking__info">
+          <div class="booking__info-item">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#C9A84C"/></svg>
+            <span>Heinrichstrasse 83, 8005 Zürich</span>
+          </div>
+          <div class="booking__info-item">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="#C9A84C"/></svg>
+            <a href="tel:+41442710002">+41 44 271 00 02</a>
+          </div>
+        </div>
+      </div>
+      <div class="booking__form-wrap reveal">
+        <form class="booking__form" id="bookingForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / Email</label>
+              <input type="text" id="phone" name="phone" placeholder="+41 or email@..." required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Select Service</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Choose a service</option>
+              <option value="classic">Classic Haircut — CHF 45</option>
+              <option value="beard">Beard Trim & Shape — CHF 30</option>
+              <option value="package">Full Grooming Package — CHF 85</option>
+              <option value="shave">Hot Towel Shave — CHF 40</option>
+              <option value="kids">Kids Haircut — CHF 28</option>
+              <option value="combo">Hair & Beard Combo — CHF 65</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form-group">
+              <label for="time">Preferred Time</label>
+              <select id="time" name="time" required>
+                <option value="" disabled selected>Select time</option>
+                <option>09:00</option><option>09:30</option>
+                <option>10:00</option><option>10:30</option>
+                <option>11:00</option><option>11:30</option>
+                <option>12:00</option><option>12:30</option>
+                <option>13:00</option><option>13:30</option>
+                <option>14:00</option><option>14:30</option>
+                <option>15:00</option><option>15:30</option>
+                <option>16:00</option><option>16:30</option>
+                <option>17:00</option><option>17:30</option>
+                <option>18:00</option><option>18:30</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Notes (optional)</label>
+            <textarea id="message" name="message" rows="3" placeholder="Any special requests or notes..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold btn--full">Request Appointment</button>
+        </form>
+        <div class="booking__success" id="bookingSuccess">
+          <div class="booking__success-icon">✓</div>
+          <h3>Booking Request Received!</h3>
+          <p>Thank you! We'll confirm your appointment within 24 hours via phone or email.</p>
+          <a href="#hero" class="btn btn--gold" style="margin-top:1.5rem;">Back to Top</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="gold-rule"><div class="gold-rule__line" data-reveal-line></div></div>
+
+  <!-- ===================== CONTACT & MAP ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2 class="section-title">Find Us</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="#C9A84C"/></svg>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+41442710002">+41 44 271 00 02</a>
+            </div>
+          </div>
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#C9A84C"/></svg>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <span>Heinrichstrasse 83<br />8005 Zürich, Switzerland</span>
+            </div>
+          </div>
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#C9A84C" stroke-width="1.8"/><path d="M3 8l9 6 9-6" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:INSERT EMAIL">Send us an email</a>
+            </div>
+          </div>
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <strong>Facebook</strong>
+              <a href="https://www.facebook.com/orysbarbershop" target="_blank" rel="noopener">@orysbarbershop</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact__map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.8869613527597!2d8.527!3d47.384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0a3a7b2a8e3%3A0x0!2sHeinrichstrasse+83%2C+8005+Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1699000000000!5m2!1sen!2sch"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ory's Barbershop Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="images/logo.jpg" alt="Ory's Barbershop" class="footer__logo" />
+        <p>Zürich's home of precision grooming.<br />Heinrichstrasse 83 · 8005 Zürich</p>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/orysbarbershop" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services & Pricing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#booking">Book Appointment</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__hours">
+        <h4>Opening Hours</h4>
+        <ul>
+          <li><span>Monday</span><span>Closed</span></li>
+          <li><span>Tue – Fri</span><span>09:00 – 19:00</span></li>
+          <li><span>Saturday</span><span>09:00 – 17:00</span></li>
+          <li><span>Sunday</span><span>Closed</span></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <a href="tel:+41442710002">+41 44 271 00 02</a>
+        <a href="https://www.facebook.com/orysbarbershop" target="_blank" rel="noopener">facebook.com/orysbarbershop</a>
+        <a href="#booking" class="btn btn--gold" style="margin-top:1.2rem;display:inline-block;">Book Now</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Ory's Barbershop · Zürich, Switzerland · All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="#booking" class="floating-cta" id="floatingCta">Book Now</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
